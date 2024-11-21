@@ -1,0 +1,507 @@
+/* tipo de fuente  */
+html {
+  padding: 0;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 30px;
+  font-style: normal;
+  color: #232226;
+}
+
+body {
+  margin: 0;
+  background-color: #ffffff;
+}
+
+
+
+/* header */
+header {
+  background-color: #5e9188;
+  color: white;
+}
+
+header h1 {
+  text-align: left, end;
+  font-size: 45px;
+  width: 400px;
+  margin: 0px 0px 0px 0px;
+  padding: 30px 0px 0px 30px;
+}
+
+#info1 {
+  text-align: right;
+  padding: 0px 0px 5px 0px;
+}
+
+#info1 a {
+  padding: 0px 30px 0px 0px;
+  font-size: 30px;
+}
+
+.link1 {
+  transition: 0.3s ease-in;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+}
+
+/* Links header */
+
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+#seccionpata a {
+  color: white;
+  text-decoration: none;
+}
+
+header a:hover {
+  transition: 0.3s ease;
+  color: #253342;
+}
+
+
+/* Botones :OOOO */
+
+.botones {
+  padding: 150px 0px 0px 0px;
+  text-align: center;
+}
+
+.botones2 {
+  text-align: center;
+}
+
+#boton1 {
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+  background-color: #5e9188;
+  display: inline-block;
+  padding: 30px;
+  width: 160px;
+  border: 2px solid white ;
+  margin: 20px;
+}
+  #boton1:hover {
+    transition: 0.5s ease;
+    font-size: 23px;
+    color: white;
+    text-decoration: none;
+    background-color: #3e5954;
+    display: inline-block;
+    padding: 28px;
+    width: 150px;
+    border: 2px solid white ;
+    margin: 20px;
+  }
+
+
+#boton2 {
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+  background-color: #5e9188;
+  display: inline-block;
+  padding: 30px;
+  width: 160px;
+  border: 2px solid white ;
+  margin: 20px;
+}
+  #boton2:hover {
+    transition: 0.5s ease;
+    font-size: 23px;
+    color: white;
+    text-decoration: none;
+    background-color: #3e5954;
+    display: inline-block;
+    padding: 28px;
+    width: 150px;
+    border: 2px solid white ;
+    margin: 20px;
+  }
+
+
+#boton3 {
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+  background-color: #5e9188;
+  display: inline-block;
+  padding: 30px;
+  width: 160px;
+  border: 2px solid white ;
+  margin: 20px;
+}
+  #boton3:hover {
+    transition: 0.5s ease;
+    font-size: 23px;
+    color: white;
+    text-decoration: none;
+    background-color: #3e5954;
+    display: inline-block;
+    padding: 28px;
+    width: 150px;
+    border: 2px solid white ;
+    margin: 20px;
+  }
+
+
+#boton4 {
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+  background-color: #5e9188;
+  display: inline-block;
+  padding: 30px;
+  width: 160px;
+  border: 2px solid white ;
+  margin: 20px;
+}
+  #boton4:hover {
+    transition: 0.5s ease;
+    font-size: 23px;
+    color: white;
+    text-decoration: none;
+    background-color: #3e5954;
+    display: inline-block;
+    padding: 28px;
+    width: 150px;
+    border: 2px solid white ;
+    margin: 20px;
+  }
+
+
+#boton5 {
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+  background-color: #5e9188;
+  display: inline-block;
+  padding: 30px;
+  width: 160px;
+  border: 2px solid white ;
+  margin: 20px;
+}
+  #boton5:hover {
+    transition: 0.5s ease;
+    font-size: 23px;
+    color: white;
+    text-decoration: none;
+    background-color: #3e5954;
+    display: inline-block;
+    padding: 28px;
+    width: 150px;
+    border: 2px solid white ;
+    margin: 20px;
+  }
+
+
+
+/* Imagenes rotando :OOOO */
+
+.fotos {
+  width: 85%;
+  height: auto;
+  margin: 1% 7% 0% 7%;
+  overflow: hidden;
+
+  margin-bottom: 200px;
+
+
+}
+
+
+
+.fotos ul {
+  display: flex;
+  padding: 0px;
+  width: 500%;
+
+  animation: slide 16s infinite;
+}
+
+.fotos li {
+  list-style: none;
+  width: 100%;
+}
+
+.fotos img {
+  width: 100%;
+}
+
+  @keyframes slide {
+    0% {margin-left: 0%;}
+    20% {margin-left: 0%;}
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+
+    75% {margin-left: -300%;}
+    95% {margin-left: -300%;}
+    
+  }
+
+/* SECCIONES */
+
+.item {
+  scroll-margin-top: 120px;
+
+}
+
+.item h1 {
+  padding: 30px 50px 0px;
+  
+  color: #253342;
+}
+
+.ultimop {
+  padding-bottom: 5rem;
+}
+
+/* IMPORTANCIA */
+
+#importancia {
+  background-color: #d0ece7;
+  height: auto;
+  padding: 0px 75px 0px;
+  text-align: justify;
+
+}
+#importancia img{
+  border-radius: 10px;
+  float: right;
+  object-fit: cover;
+  width: 575px;
+  height: 400px;
+  margin-left: 40px;
+  margin-right: 10px;;
+  margin-bottom: 5px;
+}
+
+#importancia p{
+  margin-top: 1.75rem;
+}
+
+
+/* ESPECIES */
+  
+#especies {
+  padding: 0px 75px 0px;
+}
+
+#especies h1 {
+  text-align: center;
+}
+#especies h2 {
+  padding: 0px 50px 0px;
+}
+
+/* vegetale */
+#espveg {
+  text-align: center;
+}
+
+#imgveg {
+  list-style: none;
+  display: flex;
+}
+#imgveg li img {
+width: 75%;
+height: 75%;
+
+  border-radius: 10px;
+}
+#especies ul {
+  padding: 0px;
+}
+  #imgveg li #cola {
+    margin: 0% 10% 0% 10%;
+  }
+  #imgveg li #euca {
+    margin: 0% 10% 0% 10%;
+  }
+  #imgveg li #pali {
+    margin: 0% 10% 0% 10%;
+  }
+
+
+#imgveg li {
+  text-align: center;
+  font-weight: bold;
+}
+#imgveg li #espvegbr {
+  font-weight: normal;
+  font-style: oblique;
+}
+
+
+/* Vertebrados */
+
+
+#imgvert {
+  float: right;
+  margin-right: 65px;
+  border-radius: 10px;
+}
+
+#textvert {
+  margin-top: 150px;
+  margin-bottom: 85px;
+  text-align: center;
+}
+
+#especiesvertebrados li {
+  margin: 35px 0px 0px 100px;
+}
+
+#especiesvertebrados #peces {
+  margin-top: 72px;
+}
+
+/* Peligro de extincion / Vulnerables */
+
+#extincion h2 {
+  text-align: center;
+  margin-top: 180px;
+}
+
+#vulnerables h2 {
+  text-align: center;
+  margin-top: 180px;
+}
+
+#divizq {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 250px;
+  margin-top: 100px;
+}
+
+#divder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 250px;
+  margin-top: 100px;
+}
+
+#divizq img {
+  border-radius: 10px;
+  float: left;
+  margin-right: 200px;
+  height: 500px;
+  width: 800px;
+  object-fit: cover;
+}
+
+#divder img {
+  border-radius: 10px;
+  float: right;
+  margin-left: 200px;
+  height: 500px;
+  width: 800px;
+  object-fit: cover;
+}
+
+
+/* MEDIDAS */
+
+#medidas {
+  background-color: #d0ece7;
+  height: auto;
+  padding: 0px 75px 0px;
+}
+
+.listamedidas {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+}
+.listamedidas li{
+  text-align: center;
+  width: 900px;
+  margin: 0rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+#ultimomedidas {
+  margin-top: 4rem;
+  padding-bottom: 2rem;
+}
+
+/* AMENAZAS */
+
+#amenazas {
+  padding: 0px 75px 0px;
+  background-color: #ffffff;
+  height: auto+3rem;
+}
+
+.listaamenazas {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  display: flex;
+}
+.listaamenazas li{
+  text-align: center;
+  width: 900px;
+  margin: 0rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+/* ESTADO ACTUAL */
+  
+#estadoactual {
+  background-color: #d0ece7;
+  height: 29rem;
+  padding: 0px 75px 0px;
+}
+
+/* FUENTES */
+
+#fuentes {
+  background-color: #ffffff;
+  padding: 0px 75px 0px;
+}
+
+
+/* Pre footer imagen */
+
+
+
+/* Footer */
+
+#ultimafoto {
+  padding: 0px;
+  margin: 0px;
+  height: 40%;
+  width: 100%;
+  object-fit: cover;
+}
+
+footer {
+  background-color: #232226;
+  color: aliceblue;
+  padding: 30px 0px 10px 0px;
+}
+
+footer img {
+  height: 95px;
+  width: 387px;
+  margin-top: 1.4rem;
+  margin-left: 0.8rem;
+  margin-right: 38rem;
+}
